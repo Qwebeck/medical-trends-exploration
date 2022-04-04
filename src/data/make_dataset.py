@@ -13,7 +13,7 @@ def main():
     """
     logger = logging.getLogger(__name__)
     project_dir = Path(__file__).resolve().parents[2]
-    make_bdl(project_dir / 'data' / 'raw', should_overwrite=False)
+    make_bdl(project_dir / 'data' / 'raw' / 'medical_staff_stats_bdl', should_overwrite=False)
     logger.info('making final data set from raw data')
 
 

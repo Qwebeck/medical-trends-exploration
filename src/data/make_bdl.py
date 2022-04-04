@@ -22,20 +22,23 @@ def make_bdl(save_to_folder: Path, should_overwrite: bool):
         'overall': 395367
     }
     variables = {
-        **medical_staff,
-        **nurses,
-        **midwives,
-        **rescuers
+        'medical_staff': medical_staff,
+        'nurses': nurses,
+        'midwives': midwives,
+        'rescuers': rescuers
     }
-    for var_name in variables:
-        logging.info(f'obtaining {var_name}')
-        year_range = range(2010, 2022)
-        file_path = save_to_folder / f'{var_name}_summary.csv'
-        if file_path.exists() and not should_overwrite:
-            logging.info(f"Skipping {var_name} because it already exists")
-            continue
-        data = _collect_data_over_years(variables[var_name], var_name, year_range)
-        data.to_csv(file_path)
+    for variable_set_name, variable_set in variables.items():
+        for var_name in variable_set:
+            logging.info(f'obtaining {var_name}')
+            year_range = range(2010, 2022)
+            file_path = save_to_folder / 'medical_staff_stats_bdl' / variable_set_name / f'{var_name}_summary.csv'
+            if not file_path.parent.exists():
+                file_path.parent.mkdir(parents=True)
+            if file_path.exists() and not should_overwrite:
+                logging.info(f"Skipping {var_name} because it already exists")
+                continue
+            data = _collect_data_over_years(variable_set[var_name], var_name, year_range)
+            data.to_csv(file_path)
 
 
 def _collect_data_over_years(var_id, var_name, year_range) -> pd.DataFrame:
