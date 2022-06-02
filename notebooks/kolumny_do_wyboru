@@ -1,0 +1,167 @@
+Numer kolejny rekordu
+Rok badania PGSS
+Waga analityczna # ?
+Podpróby losowe PGSS: A/B # ?
+Podpróby losowe A-B + rok PGSS # ?
+Wersje pytań kwestionariuszy: X/Y # ?
+Moduły międzynarodowe ISSP
+Suplementy tematyczne PGSS/rok
+
+Wielkość miejscowości zamieszkania # <- do usunięcia?
+Wydatki na ochronę zdrowia
+Płeć respondenta: 1=M, 2=KOB
+Wiek respondenta
+
+# tylko w przypadku lekarzy skład rodziny osób które podjęły decyzja w porównaniu z składem społeczeństwa
+14L: Mieszkał z matką
+14L: Mieszkał z ojcem
+14L: Mieszkał z macochą
+14L: Mieszkał z ojczymem
+14L: Mieszkał z siostrą/ami
+14L: Mieszkał z bratem/ćmi
+14L: Mieszkał z babcią
+14L: Mieszkał z dziadkiem
+14L: Mieszkał z ciotką
+14L: Mieszkał z wujem
+14L: Z innymi krewnymi
+14L: Z osobami spoza rodziny
+14L: Mieszkał w domu dziecka
+14L: Kto utrzymywał rodzinę #1
+14L: Kto utrzymywał rodzinę #2
+14L: Dlaczego rodzina niepełna
+14L: Struktura rodziny
+Liczba braci i sióstr
+Liczba starszych braci i sióstr
+Zawód ojca: klasyfikacja ISCO 1988
+Zawód ojca: klasyf ISCO 1988 /9 kat
+Zawód ojca: klasyf ISCO 1988 /27 kat
+Ojciec: skala poz ekon zawodu, Treiman 96
+Ojciec: skala prestiżu zawodu, Treiman 96
+Ojciec kieruje/-wał pracą innych osób
+Poziom wykształcenia ojca
+Poziom wykształcenia ojca (od 2002r.)
+Lat nauki szkolnej ojca
+Zawód matki: klasyfikacja ISCO 1988
+Zawód matki: klasyf ISCO 1988 /9 kat
+Zawód matki: klasyf ISCO 1988 /27 kat
+Matka: skala poz ekon zaw, Treiman 96
+Matka: skala prestiżu zawodu, Treiman 96
+Matka rolnikiem: liczba hektarów
+Matka właścicielem/prac najemnym
+Poziom wykształcenia matki
+Poziom wykształcenia matki(od 2002r.)
+Lat nauki szkolnej matki
+Wykształcenie matki: typ szkoły
+Ocena dochodów rodziny gdy resp 14 lat
+Sytuacja resp na rynku pracy /8 kat
+
+
+Resp: uczy się/studiuje # <--------------- for filtering 
+
+Sytuacja resp na rynku pracy /12 kat
+L.godzin pracy /przeciętnie/tydzień # tylko dla lekarzy
+
+
+# Ile ludzi pracuje w zawodzie i czym zajmują się Ci co nie pracują w zawodzie
+Zawód resp: klasyfikacja ISCO 1988
+Zawód resp: klasyf ISCO 1988 /9 kat
+Zawód resp: klasyf ISCO 1988 /27 kat
+Resp: skala poz ekon zawodu, Treiman 96
+Resp: skala prestizu zawodu, Treiman 96
+Resp: Klasyfikacja Gospodarki Narodowej/GUS 1986
+Resp: klasyf gosp narod /GUS 86/ 25 kat
+Resp: Europejska Klasyfikacja Działalności/GUS 1994
+Resp: Europ Klasyf Działaln /GUS94/ 30 kat
+
+1# Praca resp: rok rozpoczęcia
+1# Praca resp: rok zakończenia
+1# Praca, zawód /ISCO 88
+1# Praca, zawód /ISCO 88/ 9 grup
+1# Praca, zawód /ISCO 88/ 27 grup
+1# Praca, skala poz ekon zawodu, Treiman 96
+1# Praca, skala prestiżu zawodu, Treiman
+1# Praca, Klasyfikacja Gospodarki Narodowej/GUS 1986
+1# Praca, klasyf gosp nar/GUS86 /25 kat
+1# Praca, Europejska Klasyfikacja Działalności/GUS 1994
+1# Praca, Europ Klas Działal/GUS94 /30 kat
+1# Praca, pozycja kierownicza (indeks)
+-----------
+
+Liczba miejsc pracy od 14 roku życia
+Ile razy zmieniał pracę/ostatnie 5 lat
+
+Dochody z pracy respondenta (PLN)
+Na jakie dochody zasługuje (PLN) # <------ będąc lekarzem jak to wygląda
+Szansa utraty pracy # <--------- tak samo tylko dla lekarzy
+Szansa znalezienia podobnej pracy # <--------- tak samo tylko dla lekarzy
+Nawet bogaty pracowałby nadal # <--------- tak samo tylko dla lekarzy
+Zadowolenie z wykonywanej pracy # <--------- tak samo tylko dla lekarzy
+Czy miał prace dodatkowe # <--------- tak samo tylko dla lekarzy
+Pozycja zawodowa ojca gdy resp miał 14 lat # <--------- tak samo tylko dla lekarzy
+WSP: Sytuacja na rynku pracy /8 kat
+WSP: Praca w pełnym wymiarze # <--------- tak samo tylko dla lekarzy.
+WSP: Liczba godz pracy/tygodniowo # <--------- tak samo tylko dla lekarzy
+WSP: Skala poz ekon zawodu, Treiman 96
+WSP: Skala prestiżu zawodu, Treiman 96
+Czy kiedykolwiek bezrobotny, ost 10 lat # <--------- tak samo tylko dla lekarzy
+
+
+ZAUF do służby zdrowia /x # <--------- dla nie lekarzy
+ZAUF do służby zdrowia /y
+
+
+Wych dziecka: najważniejsza rzecz
+Wych dziecka: druga rzecz
+Wych dziecka: trzecia rzecz
+Wych dziecka: czwarta rzecz
+Wych dziecka: najmniej ważna rzecz
+Być posłusznym: ranga
+Być lubianym lub popularnym: ranga
+Samodzielnie myśleć: ranga
+Być pracowitym: ranga
+Pomagać innym: ranga
+
+
+Zadow z własnej sytuacji finansowej
+
+Sukces: ważna praca czy szczęście # <--------- dla wszystkich ludzi, żeby zobaczyć trendy w społeczeństwie
+
+
+
+# Widzimy jakie są priorytety społeczeństwa i jesteśmy w stanie prześledzić jak to wygląda w kontekście zawodu lekarza
+
+Pożądane w pracy: najważniejsza rzecz
+Pożądane w pracy: na drugim miejscu
+Pożądane w pracy: na trzecim miejscu
+Pożądane w pracy: na czwartym miejscu
+Pożądane w pracy: na ostatnim/piątym miejscu
+Wysokie dochody: jak ważne w pracy
+Pewność pracy: jak ważna
+Czas pracy: jak ważny
+Możliwość awansu: jak ważna
+Sensowność pracy: jak ważna
+
+
+# ---------------------------------
+
+
+
+Stawiam sobie na ogół trudne i ambitne cele <--------- bardziej ciekawostka
+Nieszczęśliwy, w depresji <------ również ciekawostka
+Zniechęcony, znudzony <------ również ciekawostka
+Zaangażowanie respondenta w pracy <------ dla lekarzy
+Woli więcej pracować i wiecej zarabiać <------ dla lekarzy
+Moja praca jest pewna <------ dla lekarzy
+Mój dochód jest wysoki <------ dla lekarzy
+Moje szanse na awans są duże <------ dla lekarzy
+Moja praca jest interesująca <------ dla lekarzy
+Mogę pracować niezależnie <------ dla lekarzy
+Mogę w pracy pomagać innym <------ zobaczymy co się dzieje
+Moja praca jest użyteczna dla społeczeństwa <------ również ciekawostka
+Jak często wraca z pracy wyczerpany <------ charakterystyka emocjalna
+Jak często praca wywołuje stres <------ charakterystyka emocjalna
+Kto wyznacza czas pracy respondenta
+Zmieniłby obecny rodzaj pracy na inny <------ charakterystyka emocjalna
+Nie zmieni pracy nawet za wyższą płacę <------ charakterystyka emocjalna
+Jest dumny z rodzaju wykonywanej pracy <------ charakterystyka emocjalna
+Czy obawia się utraty pracy <------ stabilność zawodu
